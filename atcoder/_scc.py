@@ -97,5 +97,4 @@ class SCCGraph:
         groups: typing.List[typing.List[int]] = [[] for _ in range(group_num)]
         for i in range(self._n):
             groups[ids[1][i]].append(i)
-
         return groups
